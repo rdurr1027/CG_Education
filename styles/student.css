@@ -1,0 +1,40 @@
+.flex-container-teacher {
+  display: flex;
+  height: auto;
+  width: 98%;
+  flex-wrap: wrap;
+  line-height: 1;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+}
+
+.first-container, .second-container, .third-container, .fourth-container, .fifth-container {
+  width: 33.333%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0 50px;
+}
+
+#theSpread {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.flex-item {
+  background-color: lightgrey;
+  width: 44.3%;
+  height: auto;
+  margin: 0;
+  border: 1px solid #fff;
+  padding-left: 5px;
+}
+
+.title {
+  display: block;
+  font-weight:bold;
+}
+
+p {
+  display:  block;
+}
