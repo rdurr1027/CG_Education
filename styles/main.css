@@ -2,21 +2,31 @@
   display: inline-flex;
   justify-content: space-between;
   width:  96%;
-  font-size: 15px;
+  font-size: 85%;
   font-weight: 600;
   font-family: Arial;
-  margin: 10px 0 0 15px
+  margin: 1% 0 0 2%;
 }
 
 .links{
   display: flex;
   justify-content: space-between;
-  width: 35%;
+  width: 28%;
+  font-size: 78%;
 }
 
 .colorLink a {
   color: darkorange;
   font-weight: 700;
+}
+
+.flex-container-css {
+  width: 80%;
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 10%;
 }
 
 .flex-container-teacher, .flex-container-student, .flex-container-course  {
@@ -27,13 +37,15 @@
   line-height: 1;
   box-sizing: border-box;
   justify-content: space-around;
-  margin: 20px 0 0 20px;
+  margin: 2% 0 0 2%;
   border-top: solid 2px darkgray;
-  padding-top: 20px;
+  padding-top: 2%;
 }
 
 .flex-container-course  {
   justify-content: space-between;
+  line-height: 1.5;
+
 }
 
 .flex-container-teacher   {
@@ -44,25 +56,25 @@
   width: 33.333%;
   display: flex;
   flex-wrap: wrap;
-  margin: 15px 0 50px;
+  margin: 2% 0 5%;
 }
 
 .first-container-course, .second-container-course, .third-container-course, .fourth-container-course, .fifth-container-course {
   width: 42%;
   display: flex;
   flex-direction: row-reverse;
-  padding: 40px 0;
+  padding: 4% 0;
 }
 
 .first-container-student, .second-container-student, .third-container-student {
   width: 25%;
   display: flex;
   flex-wrap: wrap;
-  margin: 15px 0 50px;
+  margin: 2% 0 5%;
 }
 
 #teacherSpread, #studentSpread, #courseSpread {
-  width: 89.6%;
+  width: 88.6%;
   display: flex;
   align-items: center;
 }
@@ -73,12 +85,14 @@
   height: auto;
   margin: 0;
   border: 1px solid darkgrey;
-  padding-left: 15px;
+  padding-left: 2%;
+  text-indent: 10%;
+  line-height: .5;
 }
 
 .flex-item-student {
   background-color: lightgrey;
-  width: 90%;
+  width: 88.5%;
   height: auto;
   margin: 0;
   border: 1px solid darkgrey;
@@ -96,7 +110,7 @@
   margin: 0;
   border: 1px solid darkgrey;
   flex-flow: column;
-  padding-left: 10px;
+  padding-left: 1%;
 }
 
 .title {
@@ -110,4 +124,9 @@ p {
 
 .Courses2 {
   text-indent: 40%;
+}
+
+.teacher {
+  text-indent:0;
+  line-height: 1.5;
 }

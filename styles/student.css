@@ -12,7 +12,7 @@
   width: 33.333%;
   display: flex;
   flex-wrap: wrap;
-  margin: 15px 0 50px;
+  margin: 2% 0 3%;
 }
 
 #theSpread {
@@ -27,7 +27,7 @@
   height: auto;
   margin: 0;
   border: 1px solid #fff;
-  padding-left: 5px;
+  padding-left: 2%;
 }
 
 .title {
